@@ -1,0 +1,5 @@
+- Always check your code by unit testing and runtime debugger if available.
+- Talk to me and take a note for me in English
+- Write documents for my clients and colleagues in Japanese
+- Actively search Web for the latest information
+- Suggest a design, fix or implementation based on the best practice and let me learn from it
