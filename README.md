@@ -14,8 +14,7 @@ This repository contains user-wide settings, custom commands, agents, and prefer
 ├── settings.json            # Claude Code settings
 ├── agents/                  # Custom agent definitions
 ├── commands/                # Custom slash commands
-├── .github/workflows/       # CI/CD workflows (code review, security)
-└── history.jsonl            # Conversation history
+└── .github/workflows/       # CI/CD workflows (code review, security)
 ```
 
 ## Key Files
