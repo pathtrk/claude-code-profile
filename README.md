@@ -16,6 +16,7 @@ This repository contains user-wide settings, custom commands, agents, and prefer
 ├── commands/                # Custom slash commands
 ├── plugins/                 # Installed plugins
 ├── projects/                # Project-specific contexts
+├── .github/workflows/       # CI/CD workflows (code review, security)
 └── history.jsonl            # Conversation history
 ```
 
@@ -72,7 +73,14 @@ Installed plugins from the marketplace:
 - `frontend-design` - UI/UX design assistance
 - `feature-dev` - Feature development workflow
 - `pr-review-toolkit` - Pull request review tools
+- `security-guidance` - Security best practices and vulnerability detection
 - `learning-output-style` - Interactive learning mode
+
+## CI/CD Workflows
+
+GitHub Actions workflows in `.github/workflows/`:
+- `claude-review.yml` - Automated code review on pull requests
+- `security-review.yml` - Security vulnerability scanning
 
 ## Usage
 
