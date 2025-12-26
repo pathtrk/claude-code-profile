@@ -1,4 +1,7 @@
 **
+!.github
+!.github/workflows
+!.github/workflows/*
 !agents
 !agents/**/*.md
 !commands
