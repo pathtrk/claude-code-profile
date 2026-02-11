@@ -2,7 +2,7 @@
 name: architecture-analyst
 description: Analyzes codebase architecture and creates technical designs. Use before major features or large refactors.
 tools: Read, Grep, Glob, Bash, Write
-model: sonnet
+model: opus
 color: green
 ---
 

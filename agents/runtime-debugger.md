@@ -1,8 +1,8 @@
 ---
 name: runtime-debugger
 description: Verifies code changes by executing them in real environments. Use for testing endpoints, migrations, data processing functions, or validating refactors.
-tools: Bash, Read, Grep, Glob, Write, mcp__playwright__browser_navigate, mcp__playwright__browser_click, mcp__playwright__browser_fill_form, mcp__playwright__browser_snapshot, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_console_messages, mcp__playwright__browser_network_requests, mcp__playwright__browser_wait_for
-model: haiku
+tools: Bash, Read, Grep, Glob, Write, mcp__playwright
+model: sonnet
 color: orange
 ---
 

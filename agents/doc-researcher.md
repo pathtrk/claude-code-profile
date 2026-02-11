@@ -1,7 +1,7 @@
 ---
 name: doc-researcher
 description: Researches documentation and creates concise summaries. Use when learning new libraries or APIs.
-tools: Read, Write, Glob, WebFetch, WebSearch, mcp__firecrawl__firecrawl_scrape, mcp__firecrawl__firecrawl_search
+tools: Read, Write, Glob, Bash, WebFetch, WebSearch
 model: haiku
 color: cyan
 ---
