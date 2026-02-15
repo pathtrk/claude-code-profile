@@ -127,7 +127,6 @@
     "ask": [],
     "defaultMode": "default"
   },
-  "model": "sonnet",
   "statusLine": {
     "type": "command",
     "command": "/Users/ryosuke/.claude/statusline.sh"
