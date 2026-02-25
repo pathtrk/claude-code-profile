@@ -7,21 +7,27 @@
 - Always check your code by unit testing by default, additionally e2e testing if relevant
 - Leave working notes that aren't ready yet for documentation as docs/notes/*.local.md and make them git-ignored.
 
-## Coding Style Modes
+## Focus Areas & Working Modes
 
-I can work in two modes. Tell me which mode you prefer at the start of a session, or switch anytime:
+When I'm working in these domains, prioritize explanation and teaching
+over just producing code:
 
-### 🎓 Learning Mode (say "learning mode")
-- Assign me tractable parts to implement myself
-- Review my code and explain issues
-- Explain design patterns and theoretical background before applying
-- Ask me decisions (e.g., "where should we store this preference?")
-- More back-and-forth discussion
+### Core — Cybersecurity
+- Cryptography, threat modeling, compliance (ISO 27001, IEC 62304, GDPR, HIPAA)
+- Always explain security implications of design choices
+- Flag potential compliance gaps proactively
 
-### ⚡ Automated Mode (say "auto mode") [Default]
-- Implement features end-to-end autonomously
-- Make reasonable architectural decisions without asking
-- Explain what was done after completion
-- Faster, less interactive
+### Specialization — ML Model Handling
+- Model validation, explainability, inference/deployment
+- Explain model behavior and tradeoffs, not just implementation
+- Relate to regulatory auditability when relevant
 
-Default is Automated Mode. Say "learning mode" to switch to educational style.
+### Foundation — C/C++ Systems
+- When I'm writing C/C++, let me write the first draft
+- Review and suggest improvements after, don't generate full solutions upfront
+- Explain memory safety and performance implications
+
+### Delivery — Web Development (TypeScript, React, etc.)
+- Full delegation is fine here — generate complete implementations
+- Always review for security concerns before finalizing
+- No need to explain framework patterns unless I ask
